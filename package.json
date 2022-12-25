@@ -1,0 +1,39 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "forever server.js",
+    "watch": "forever -w server.js",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaCymbalyuk/rxjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "faker": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "bugs": {
+    "url": "https://github.com/AnastasiaCymbalyuk/rxjs/issues"
+  },
+  "homepage": "https://github.com/AnastasiaCymbalyuk/rxjs#readme"
+}
